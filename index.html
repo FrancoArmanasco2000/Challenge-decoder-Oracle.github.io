@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&family=Passion+One&family=Roboto+Mono&display=swap" rel="stylesheet">
+        <title>Pruebas</title>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="title">
+                <p class="titulo"><strong>DECODER</strong></p>
+            </div>
+        </div>
+
+        <div class="text">
+            <textarea id="write" placeholder="INGRESE EL TEXTO AQUI"></textarea>
+        </div>
+
+        <div class="answer">
+            <p id="output"></p>
+            <p id="waiting">
+                NO HAY RESPUESTA
+            </p>
+
+            <button id="copy" onclick="copiarTxt()">Copiar</button>
+        </div>
+
+        <div class="buttons">
+            <button onclick="encriptar()">Encriptar</button>
+            <button onclick="desencriptar()">Desencriptar</button>
+        </div>
+
+        <script src="backend.js"></script>
+
+    </body>
+</html>
