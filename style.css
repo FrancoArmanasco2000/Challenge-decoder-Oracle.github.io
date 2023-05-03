@@ -88,10 +88,14 @@ textarea::placeholder{
 #waiting{
     position: absolute;
     top:150px;
-    left:15%;
     font-weight: bold;
     font-size: 30px;
     color:#c1cb9f;
+    top:145px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: auto;
 }
 
 #copy{
